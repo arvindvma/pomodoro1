@@ -7,4 +7,4 @@
 - [ ] Add a start button
 - [ ] Add a pause button
 - [ ] Add a switch button
-
+- [ ] Add a sound effect
