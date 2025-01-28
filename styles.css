@@ -10,15 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #E8F3F1;  /* Soft mint background */
 }
 
 .container {
     text-align: center;
-    background-color: white;
+    background-color: #FFF5F5;  /* Very light pink */
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(180, 180, 180, 0.2);
 }
 
 .timer {
@@ -39,27 +39,27 @@ body {
 
 /* Specific button colors */
 #start {
-    background-color: #4CAF50;  /* Green */
+    background-color: #98D8C6;  /* Soft mint green */
 }
 
 #start:hover {
-    background-color: #45a049;
+    background-color: #7AC4AF;
 }
 
 #pause {
-    background-color: #FFA500;  /* Orange-yellow */
+    background-color: #FFB5A7;  /* Soft coral */
 }
 
 #pause:hover {
-    background-color: #F09400;
+    background-color: #FFA294;
 }
 
 #reset {
-    background-color: #FF4444;  /* Red */
+    background-color: #F8AFA6;  /* Soft pink */
 }
 
 #reset:hover {
-    background-color: #E63939;
+    background-color: #F79B8E;
 }
 
 .mode-switches button {
@@ -69,12 +69,12 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #808080;
+    background-color: #B5C1C9;  /* Soft gray-blue */
     color: white;
 }
 
 .mode-switches button:hover {
-    background-color: #707070;
+    background-color: #A3B1BB;
 }
 
 .mode-switches {
@@ -82,5 +82,5 @@ body {
 }
 
 .mode-switches button.active {
-    background-color: #4CAF50;
+    background-color: #98D8C6;  /* Matching the start button */
 } 
